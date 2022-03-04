@@ -59,4 +59,4 @@ tags: [설치, 모니터링, 프로메테우스]
     
 5. IP:9090 접속
     
-    ![접속 화면](/assets/prometheus/캡처.png)
+    ![접속 화면](/assets/Prometheus/캡처.png)

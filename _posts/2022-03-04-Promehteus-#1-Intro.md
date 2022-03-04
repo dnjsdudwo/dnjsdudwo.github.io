@@ -32,7 +32,7 @@ tags: [개념, 모니터링, 프로메테우스]
 
 1. 클러스터링이 불가능하다.
     
-    ![Prometheus 다중화 방식](/assets/prometheus/그림3.jpg)
+    ![Prometheus 다중화 방식](/assets/Prometheus/그림3.jpg)
     
     - Master, Slave 구조로 각 Region에 Slave Prometheus 서버를 두고 Master Prometheus에서 Aggregate하는 방식이 공식적으로 권장하는 다중화 방식으로 클러스트링과는 거리가 멀다.
 2. 수집서버가 멈추면 그 시간동안의 메트릭 정보는 볼 수 없다.
@@ -43,7 +43,7 @@ tags: [개념, 모니터링, 프로메테우스]
 
 # 아키텍처
 
-![Prometheus 아키텍처](/assets/prometheus/Untitled.png)
+![Prometheus 아키텍처](/assets/Prometheus/Untitled.png)
 
 Prometheus 아키텍처
 
@@ -70,6 +70,6 @@ Prometheus 아키텍처
 
 # 구성도
 
-![구성도](/assets/prometheus/캡처5.png)
+![구성도](/assets/Prometheus/캡처5.png)
 
 초기 구성도는 간단하게 잡아 보았다. 앞으로 글들에서 설치 및 구성을 하나씩 설명하려고 한다.
